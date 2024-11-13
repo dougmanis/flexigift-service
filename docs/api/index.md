@@ -14,6 +14,6 @@ generally `http://localhost:3000`.
 Flexigift maintains four resources:
 
 * [Gift Cards](gift-cards/index.md)
-* Users
-* Products
-* Transactions
+* [Users](users/index.md)
+* [Products](products/index.md)
+* [Transactions](transactions/index.md)
