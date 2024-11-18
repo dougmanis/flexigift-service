@@ -1,2 +1,2 @@
 # flexigift-service
-Code, data, and docs for the Flexigift gift card management service
+Code, data, and API documentation for the Flexigift gift card management service
