@@ -22,7 +22,17 @@ None
 
 ## Request parameters
 
-None
+You can optionally filter your results by one or more of the following query parameters:
+
+| Name          | Type          | Mandatory? | Constraints | Notes |
+| ------------- | ------------- | ---        | ---         | ---   |
+| card_id       | string        | no         | -           | -     |
+| user_id       | string        | no         | -           | -     |
+| issuer        | string        | no         | -           | -     |
+| balance       | float          | no         | -           | -     |
+| expiry_date   | date          | no         | -           | -     |
+
+If you submit no query parameters, the system will return the full array of Gift Cards.
 
 ## Request data
 
@@ -30,13 +40,14 @@ None
 
 ## Response data
 
-| Name          | Type          | Mandatory? | Constraints | Notes |
-| ------------- | ------------- | ---        | ---         | ---   |
-| card_id       | string        | true       | -           | Unique ID. This value is provided by the issuer of the card. |
-| user_id       | string        | true       | -           | The user associated with the payment card. |
-| issuer        | string        | true       | -           | The merchant that issued the payment card. |
-| balance       | float          | true       | -           | How much money is left on the card.        |
-| expiry_date   | date          | true       | -           | Date the gift card expires. |
+| Name          | Type          | Mandatory? | Constraints     | Notes |
+| ------------- | ------------- | ---        | ---             | ---   |
+| id            | int           | yes        | Must be unique. | Internal unique ID assigned by the system. |
+| card_id       | string        | no         | -               | Unique ID provided by the issuer of the card. |
+| user_id       | string        | no         | -               | The user associated with the payment card. |
+| issuer        | string        | no         | -               | The merchant that issued the payment card. |
+| balance       | float          | no         | -               | How much money is left on the card.        |
+| expiry_date   | date          | no         | -               | Date the gift card expires. |
 
 ## HTTP response codes
 
@@ -44,7 +55,9 @@ None
 | ------------- | ------------- | ---   |
 | 200           | OK            | -     |
 
-## Example request and response
+## Example requests and responses
+
+### Get all Gift Cards
 
 Request:
 
@@ -93,8 +106,72 @@ Response:
   }
 ]
 ```
+
+### Filter Gift Cards by their issuer
+
+Request:
+
+```shell
+curl -GET "http://localhost:3000/gift_cards?issuer=Hanes"
+```
+
+Response:
+
+```json
+[
+  {
+    "card_id": "hanes-gc-003",
+    "user_id": "user004",
+    "issuer": "Hanes",
+    "balance": 10,
+    "expiry_date": "2026-12-31",
+    "id": 1
+  },
+  {
+    "id": 5,
+    "card_id": "hanes-gc-002",
+    "user_id": "user004",
+    "issuer": "Hanes",
+    "balance": 50,
+    "expiry_date": "2025-12-31"
+  }
+]
+```
+
+### Filter Gift Cards by their issuer and balance
+
+Request:
+
+```shell
+curl -GET "http://localhost:3000/gift_cards?issuer=Hanes&balance=50"
+```
+
+Response:
+
+```json
+[
+  {
+    "card_id": "hanes-gc-003",
+    "user_id": "user004",
+    "issuer": "Hanes",
+    "balance": 50,
+    "expiry_date": "2026-12-31",
+    "id": 1
+  },
+  {
+    "id": 5,
+    "card_id": "hanes-gc-002",
+    "user_id": "user004",
+    "issuer": "Hanes",
+    "balance": 50,
+    "expiry_date": "2025-12-31"
+  }
+]
+```
+
 ## Links
 
 * [Documentation home](../../index.md)
-* [API reference](../../api/index.md)
+* [API reference](../index.md)
+* [Gift Card resource](index.md)
 * [Support](mailto:support@example.com)
