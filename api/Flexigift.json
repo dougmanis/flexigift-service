@@ -1,6 +1,7 @@
 {
   "users": [
     {
+      "id": 1,
       "user_id": "user001",
       "amazon_id": "amz12345",
       "name": "John Doe",
@@ -8,6 +9,7 @@
       "gift_cards": ["hanes-gc-001", "nike-gc-002"]
     },
     {
+      "id": 2, 
       "user_id": "user002",
       "amazon_id": "amz67890",
       "name": "Jane Smith",
@@ -15,6 +17,7 @@
       "gift_cards": ["starbucks-gc-003"]
     },
     {
+      "id": 3, 
       "user_id": "user003",
       "amazon_id": "amz54321",
       "name": "Alice Johnson",
@@ -22,6 +25,7 @@
       "gift_cards": ["gap-gc-004", "nike-gc-002"]
     },
     {
+      "id": 4, 
       "user_id": "user004",
       "amazon_id": "amz98765",
       "name": "Bob Brown",
@@ -31,6 +35,7 @@
   ],
   "gift_cards": [
     {
+      "id": 1, 
       "card_id": "hanes-gc-001",
       "user_id": "user001",
       "issuer": "Hanes",
@@ -38,6 +43,7 @@
       "expiry_date": "2025-12-31"
     },
     {
+      "id": 2, 
       "card_id": "nike-gc-002",
       "user_id": "user001",
       "issuer": "Nike",
@@ -45,6 +51,7 @@
       "expiry_date": "2024-11-30"
     },
     {
+      "id": 3, 
       "card_id": "starbucks-gc-003",
       "user_id": "user002",
       "issuer": "Starbucks",
@@ -52,6 +59,7 @@
       "expiry_date": "2024-06-30"
     },
     {
+      "id": 4, 
       "card_id": "gap-gc-004",
       "user_id": "user003",
       "issuer": "Gap",
@@ -59,6 +67,7 @@
       "expiry_date": "2025-05-15"
     },
     {
+      "id": 5, 
       "card_id": "hanes-gc-001",
       "user_id": "user004",
       "issuer": "Hanes",
@@ -68,24 +77,28 @@
   ],
   "products": [
     {
+      "id": 1, 
       "product_id": "hanes-underwear-001",
       "name": "Hanes Men's Underwear Pack",
       "price": 15.99,
       "eligible_issuer": "Hanes"
     },
     {
+      "id": 2, 
       "product_id": "nike-shoes-002",
       "name": "Nike Running Shoes",
       "price": 89.99,
       "eligible_issuer": "Nike"
     },
     {
+      "id": 3, 
       "product_id": "starbucks-coffee-003",
       "name": "Starbucks Ground Coffee",
       "price": 12.99,
       "eligible_issuer": "Starbucks"
     },
     {
+      "id": 4, 
       "product_id": "gap-jacket-004",
       "name": "Gap Winter Jacket",
       "price": 65.00,
@@ -94,6 +107,7 @@
   ],
   "transactions": [
     {
+      "id": 1, 
       "transaction_id": "txn001",
       "user_id": "user001",
       "amazon_id": "amz12345",
@@ -105,6 +119,7 @@
       "message": "Balance confirmed before transaction."
     },
     {
+      "id": 2, 
       "transaction_id": "txn002",
       "user_id": "user002",
       "amazon_id": "amz67890",
@@ -116,6 +131,7 @@
       "message": "Balance confirmed before transaction."
     },
     {
+      "id": 3, 
       "transaction_id": "txn003",
       "user_id": "user003",
       "amazon_id": "amz54321",
@@ -127,6 +143,7 @@
       "message": "Balance confirmed before transaction."
     },
     {
+      "id": 4, 
       "transaction_id": "txn004",
       "user_id": "user004",
       "amazon_id": "amz98765",
