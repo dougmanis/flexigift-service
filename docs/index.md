@@ -13,6 +13,12 @@ given the option to pay with one of their third-party gift cards.
 
 Use Flexigift's REST API to manage users, gift cards, and eligible products.
 
+## [Tutorials](tutorials/index.md)
+
+* [Add a User](tutorials/add-a-user.md) -- Create a new user account in the system.
+* [Add a Gift Card](tutorials/add-a-gift-card.md) -- Create a new gift card.
+* [Link a Gift Card to a User](tutorials/link-card-to-user.md) -- Associate gift cards to your user's account.
+
 ## [API reference](api/index.md)
 
 The Flexigift service offers four resources:
@@ -25,12 +31,9 @@ The Flexigift service offers four resources:
 
 ### [Transactions](api/transactions/index.md)
 
-**Note**: The [API reference documentation](api/index.md) refers to a `{base_url}` when they
-refer to the URL of a resource. The `{base_url}` value depends on the installation of the service. 
-When Flexigift is run locally, the `{base_url}` is generally `http://localhost:3000`.
-
 ## Links
 
 * [Documentation home](index.md)
+* [Tutorials](tutorials/index.md)
 * [API reference](api/index.md)
 * [Support](mailto:support@example.com)
