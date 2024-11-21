@@ -111,6 +111,7 @@ Now that you have a user in the system, try these next steps:
 ## Links
 
 * [Documentation home](../index.md)
+* [Install Flexigift](../setup.md)
 * [Tutorials](../tutorials/index.md)
 * [API reference](../api/index.md)
 * [Support](mailto:support@example.com)

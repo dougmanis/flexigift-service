@@ -19,5 +19,7 @@ Flexigift maintains four resources:
 ## Links
 
 * [Documentation home](../index.md)
+* [Install Flexigift](../setup.md)
+* [Tutorials](../../tutorials/index.md)
 * [API reference](../api/index.md)
 * [Support](mailto:support@example.com)
