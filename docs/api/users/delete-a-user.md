@@ -2,14 +2,14 @@
 layout: page
 ---
 
-# Delete a Gift Card
+# Delete a User
 
-The Delete a Gift Card service removes a given card from the system.
+The Delete a User service removes a given [user](index.md) from the system.
 
 ## URL
 
 ```shell
-{base_url}/gift_cards/{id}
+{base_url}/users/{id}
 ```
 
 ## HTTP method
@@ -47,7 +47,7 @@ An empty data set.
 Request:
 
 ```shell
-curl -XDELETE "http://localhost:3000/gift_cards/6"
+curl -XDELETE http://localhost:3000/users/6
 ```
 
 Response:
@@ -61,6 +61,6 @@ Response:
 * [Documentation home](../../index.md)
 * [Install Flexigift](../../setup.md)
 * [Tutorials](../../tutorials/index.md)
-* [API reference](../index.md)
-* [Gift Card resource](index.md)
+* [API reference](../../api/index.md)
+* [User resource](index.md)
 * [Support](mailto:support@example.com)

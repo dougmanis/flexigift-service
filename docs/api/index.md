@@ -6,13 +6,23 @@ layout: page
 
 Detailed descriptions of the Flexigift service's resources.
 
-> **Note**: The [API reference documentation](api/index.md) refers to a `{base_url}` when they
+> **Note**: The API reference documentation refers to a `{base_url}` when they
 refer to the URL of a resource. The `{base_url}` value depends on the installation of the service. 
 When Flexigift is run locally, the `{base_url}` is generally `http://localhost:3000`.
 Flexigift maintains four resources:
 
-* [Gift Cards](gift-cards/index.md)
+* [Gift Cards](gift-cards/index.md)  
+  * [Create a Gift Card](gift-cards/create-a-gift-card.md)
+  * [Get a Gift Card](gift-cards/get-a-gift-card.md)
+  * [Get All Gift Cards](gift-cards/get-gift-cards.md)
+  * [Update a Gift Card](gift-cards/update-a-gift-card.md)
+  * [Delete a Gift Card](gift-cards/delete-a-gift-card.md)
 * [Users](users/index.md)
+  * [Create a User](users/create-a-user.md)
+  * [Get a User](users/get-a-user.md)
+  * [Get All Users](users/get-users.md)
+  * [Update a User](users/update-a-user.md)
+  * [Delete a User](users/delete-a-user.md)
 * [Products](products/index.md)
 * [Transactions](transactions/index.md)
 
