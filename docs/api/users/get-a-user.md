@@ -2,17 +2,37 @@
 layout: page
 ---
 
-# Users resource
+# Get a User
 
-The Users resource contains information about the customers in the system.
+The Get a User service returns the details for a given [user](index.md).
 
-## Base endpoint
+## URL
 
 ```shell
-{base_url}/users
+{base_url}/users/{id}
 ```
 
-## Data structure
+## HTTP method
+
+GET
+
+## Request headers
+
+None
+
+## Request parameters
+
+Path parameters:
+
+| Name          | Type          | Mandatory? | Constraints | Notes |
+| ------------- | ------------- | ---        | ---         | ---   |
+| id            | int           | yes        |             | Internal unique ID assigned by the system. |
+
+## Request data
+
+None
+
+## Response data
 
 | Name           | Type          | Mandatory? | Constraints     | Notes |
 | -------------  | ------------- | ---        | ---             | ---   |
@@ -23,7 +43,21 @@ The Users resource contains information about the customers in the system.
 | email          | string        | yes        | Must contain an '@' symbol. | The user's email address. |
 | gift_cards     | string[]      | yes        | -               | Array of [gift cards](../gift-cards/index.md) associated with the user. |
 
-Example:
+## HTTP response codes
+
+| Code          | Description   | Notes |
+| ------------- | ------------- | ---   |
+| 200           | OK            | -     |
+
+## Example request and response
+
+Request:
+
+```shell
+http://localhost:3000/users/1
+```
+
+Response:
 
 ```json
 {
@@ -39,15 +73,19 @@ Example:
 }
 ```
 
-## REST APIs
-
-The Users resource offers the following REST interfaces:
-
-* [Create a User](create-a-user.md)
-* [Get a User](get-a-user.md)
-* [Get Users](get-users.md)
-* [Update a User](update-a-user.md)
-* [Delete a User](delete-a-user.md)
+> **Note**: The service always responds with HTTP status 200 even for users that do not exist in the system. Instead of returning status 404 (Not Found), the service returns an empty data set.
+>
+> For example, searching for non-existing user 999:
+>
+> ```bash
+> curl -GET "http://localhost:3000/gift_cards/999"
+> ```
+>
+> returns:
+>
+> ```json
+> {}
+> ```
 
 ## Links
 
