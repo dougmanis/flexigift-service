@@ -2,18 +2,37 @@
 layout: page
 ---
 
-# Transactions resource
+# Get a Transaction
 
-Flexigift records each customer purchase as a 'transaction'.
-The Transactions resource contains information about these purchases.
+The Get a Transaction service returns the details for a given [transaction](index.md).
 
-## Base endpoint
+## URL
 
 ```shell
-{base_url}/transactions
+{base_url}/transactions/{id}
 ```
 
-## Data structure
+## HTTP method
+
+GET
+
+## Request headers
+
+None
+
+## Request parameters
+
+Path parameters:
+
+| Name          | Type          | Mandatory? | Constraints | Notes |
+| ------------- | ------------- | ---        | ---         | ---   |
+| id            | int           | yes        |             | Internal unique ID assigned by the system. |
+
+## Request data
+
+None
+
+## Response data
 
 | Name           | Type          | Mandatory? | Constraints | Notes |
 | -------------  | ------------- | ---        | ---         | ---   |
@@ -28,7 +47,21 @@ The Transactions resource contains information about these purchases.
 | balance_check  | boolean       | yes        | Must be one of: {TRUE, FALSE} | Did the card have enough money to pay for the purchase? |
 | message        | string        | no         | -           | - |
 
-Example:
+## HTTP response codes
+
+| Code          | Description   | Notes |
+| ------------- | ------------- | ---   |
+| 200           | OK            | -     |
+
+## Example request and response
+
+Request:
+
+```shell
+curl http://localhost:3000/transactions/1
+```
+
+Response:
 
 ```json
 {
@@ -45,15 +78,19 @@ Example:
 }
 ```
 
-## REST APIs
-
-The Transactions resource offers the following REST interfaces:
-
-* [Create a Transaction](create-a-transaction.md)
-* [Get a Transaction](get-a-transaction.md)
-* [Get Transactions](get-transactions.md)
-* [Update a Transaction](update-a-transaction.md)
-* [Delete a Transaction](delete-a-transaction.md)
+> **Note**: The service always responds with HTTP status 200 even for transactions that do not exist in the system. Instead of returning status 404 (Not Found), the service returns an empty data set.
+>
+> For example, searching for non-existing transaction 999:
+>
+> ```bash
+> curl -GET "http://localhost:3000/transactions/999"
+> ```
+>
+> returns:
+>
+> ```json
+> {}
+> ```
 
 ## Links
 
