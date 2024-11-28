@@ -24,6 +24,11 @@ Flexigift maintains four resources:
   * [Update a User](users/update-a-user.md)
   * [Delete a User](users/delete-a-user.md)
 * [Products](products/index.md)
+  * [Create a Product](products/create-a-product.md)
+  * [Get a Product](products/get-a-product.md)
+  * [Get All Products](products/get-products.md)
+  * [Update a Product](products/update-a-product.md)
+  * [Delete a Product](products/delete-a-product.md)
 * [Transactions](transactions/index.md)
 
 ## Links
