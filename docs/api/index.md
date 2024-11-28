@@ -30,6 +30,11 @@ Flexigift maintains four resources:
   * [Update a Product](products/update-a-product.md)
   * [Delete a Product](products/delete-a-product.md)
 * [Transactions](transactions/index.md)
+  * [Create a Transaction](transactions/create-a-transaction.md)
+  * [Get a Transaction](transactions/get-a-transaction.md)
+  * [Get All Transactions](transactions/get-transactions.md)
+  * [Update a Transaction](transactions/update-a-transaction.md)
+  * [Delete a Transaction](transactions/delete-a-transaction.md)
 
 ## Links
 

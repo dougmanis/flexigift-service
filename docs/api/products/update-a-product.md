@@ -39,7 +39,7 @@ Path parameters:
 
 ## Response data
 
-A successful request returns the data you submitted plus the user's unique `id`:
+A successful request returns the data you submitted plus the product's unique `id`:
 
 | Name            | Type          | Mandatory? | Constraints | Notes |
 | -------------   | ------------- | ---        | ---         | ---   |
