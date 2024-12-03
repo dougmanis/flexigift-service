@@ -14,10 +14,11 @@ Allow 30 minutes to complete this lesson.
 * The Flexigift service is up and running.
 * You are comfortable working with [REST interfaces](https://restfulapi.net).
 * A REST client such as [cURL](https://curl.se), [Postman](https://www.postman.com), 
-or [Insomnia](https://insomnia.rest). This tutorial assumes you are using cURL but use whatever REST client you like.
+or [Insomnia](https://insomnia.rest). This tutorial assumes you are using cURL but use whatever REST 
+client you like.
 
-> **Note**: This tutorial assumes that the Flexigift service is running at http://localhost:3000. Remember to 
-point to your own host when you adapt the code samples to your own environment.
+> **Note**: This tutorial assumes that the Flexigift service is running at http://localhost:3000. 
+Remember to point to your own host when you adapt the code samples to your own environment.
 
 ## Overview
 
@@ -105,13 +106,13 @@ Response:
 
 Now that you have a user in the system, try these next steps:
 
-* [Enter a new gift card](add-a-gift-card.md) for them to spend.
-* [Link a gift card to a user](link-card-to-user.md).
+* [Add a Gift Card](add-a-gift-card.md) to spend.
+* [Link a Gift Card to a User](link-card-to-user.md).
 
 ## Links
 
-* [Documentation home](../index.md)
+* [Documentation Home](../index.md)
 * [Install Flexigift](../setup.md)
 * [Tutorials](../tutorials/index.md)
-* [API reference](../api/index.md)
+* [REST API Reference](../api/index.md)
 * [Support](mailto:support@example.com)

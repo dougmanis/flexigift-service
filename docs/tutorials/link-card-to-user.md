@@ -2,7 +2,7 @@
 layout: page
 ---
 
-# Tutorial: Link a gift card to a user
+# Tutorial: Link a Gift Card to a User
 
 The Flexigift service allows users to pay for their Amazon purchases with third-party gift cards. 
 This tutorial will teach you how to add link a gift card to a user.
@@ -127,8 +127,8 @@ Now that your user has gift cards associated, they can start redeeming them in t
 
 ## Links
 
-* [Documentation home](../index.md)
+* [Documentation Home](../index.md)
 * [Install Flexigift](../setup.md)
 * [Tutorials](../tutorials/index.md)
-* [API reference](../api/index.md)
+* [REST API Reference](../api/index.md)
 * [Support](mailto:support@example.com)

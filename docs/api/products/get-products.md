@@ -91,9 +91,9 @@ Response:
 
 ## Links
 
-* [Documentation home](../../index.md)
+* [Documentation Home](../../index.md)
 * [Install Flexigift](../../setup.md)
 * [Tutorials](../../tutorials/index.md)
-* [API reference](../../api/index.md)
-* [Products resource](index.md)
+* [REST API Reference](../../api/index.md)
+* [Products Resource](index.md)
 * [Support](mailto:support@example.com)

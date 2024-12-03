@@ -6,14 +6,14 @@ layout: page
 
 Get up and running with the following tutorials:
 
-* [Create a New User](add-a-user.md)
-* [Create a New Gift Card](add-a-gift-card.md)
+* [Add a User](add-a-user.md)
+* [Add a Gift Card](add-a-gift-card.md)
 * [Link a Gift Card to a User](link-card-to-user.md)
 
 ## Links
 
-* [Documentation home](../index.md)
+* [Documentation Home](../index.md)
 * [Install Flexigift](../setup.md)
 * [Tutorials](../tutorials/index.md)
-* [API reference](../api/index.md)
+* [REST API Reference](../api/index.md)
 * [Support](mailto:support@example.com)
