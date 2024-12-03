@@ -26,11 +26,11 @@ The Flexigift service requires the following utilities:
 
 1. Click Fork in the upper-right portion of the screen:    
 
-    ![GitHub Fork button](images/btn-github-fork.png)
+    <img src="images/btn-github-fork.png" alt="GitHub Fork button" width="200" style="border:1px solid #eee" />
 
 1. From your GitHub fork, copy the repo's SSH URL to your clipboard:    
 
-    ![GitHub SSH URL](images/dlg-github-clone.png)
+    <img src="images/dlg-github-clone.png" alt="GitHub SSH URL" width="600" style="border:1px solid #eee" />
 
 ### 2) Create and checkout a test branch on your PC
 
@@ -160,8 +160,8 @@ Some common situations that cause errors include:
 If you see the list of users from the service, congratulations! You are ready to use Flexigift. 
 Start with the following links:
 
-* [Documentation home](index.md)
+* [Documentation Home](index.md)
 * [Install Flexigift](setup.md)
 * [Tutorials](tutorials/index.md)
-* [API reference](api/index.md)
+* [REST API reference](api/index.md)
 * [Support](mailto:support@example.com)

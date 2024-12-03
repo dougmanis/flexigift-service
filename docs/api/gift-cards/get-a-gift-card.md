@@ -86,9 +86,9 @@ returns:
 
 ## Links
 
-* [Documentation home](../../index.md)
+* [Documentation Home](../../index.md)
 * [Install Flexigift](../../setup.md)
 * [Tutorials](../../tutorials/index.md)
-* [API reference](../index.md)
-* [Gift Card resource](index.md)
+* [REST API Reference](../index.md)
+* [Gift Card Resource](index.md)
 * [Support](mailto:support@example.com)

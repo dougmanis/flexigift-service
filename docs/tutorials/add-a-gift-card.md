@@ -75,7 +75,7 @@ You create new cards in the system with the POST method of the
 
 ## Fetch your new card's details
 
-You can fetch your gift card's details any time with the GET method of the [Gift Card resource](../api/gift-cards/index.md) and the 
+You can fetch your gift card's details any time with the GET method of the [Gift Card Resource](../api/gift-cards/index.md) and the 
 instance's unique ```id```.
 
 Example [Get a Gift Card](../api/gift-cards/get-a-gift-card.md) request:
@@ -103,8 +103,8 @@ Now that you have a gift card in the system, link it to a user as described in t
 
 ## Links
 
-* [Documentation home](../index.md)
+* [Documentation Home](../index.md)
 * [Install Flexigift](../setup.md)
 * [Tutorials](../tutorials/index.md)
-* [API reference](../api/index.md)
+* [REST API Reference](../api/index.md)
 * [Support](mailto:support@example.com)

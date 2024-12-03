@@ -2,7 +2,7 @@
 layout: page
 ---
 
-# Gift Card resource
+# Gift Card Resource
 
 The Gift Card resource contains information about customers' third-party payment cards.
 
@@ -48,8 +48,9 @@ The Gift Card resource offers the following REST interfaces:
 
 ## Links
 
-* [Documentation home](../../index.md)
+* [Documentation Home](../../index.md)
 * [Install Flexigift](../../setup.md)
 * [Tutorials](../../tutorials/index.md)
-* [API reference](../../api/index.md)
+* [REST API Reference](../index.md)
+* [Gift Card Resource](index.md)
 * [Support](mailto:support@example.com)

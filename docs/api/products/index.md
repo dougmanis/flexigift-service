@@ -2,7 +2,7 @@
 layout: page
 ---
 
-# Products resource
+# Products Resource
 
 Flexigift stores a list of products that are eligible to be purchased with a customer's gift card. 
 The Products service contains information about these items.
@@ -47,9 +47,9 @@ The Products resource offers the following REST interfaces:
 
 ## Links
 
-* [Documentation home](../../index.md)
+* [Documentation Home](../../index.md)
 * [Install Flexigift](../../setup.md)
 * [Tutorials](../../tutorials/index.md)
-* [API reference](../../api/index.md)
-* [Products resource](index.md)
+* [REST API Reference](../../api/index.md)
+* [Products Resource](index.md)
 * [Support](mailto:support@example.com)
