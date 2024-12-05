@@ -52,8 +52,9 @@ The Users resource offers the following REST interfaces:
 ## Links
 
 * [Documentation Home](../../index.md)
+* [Quick Start](../../quickstart.md)
 * [Install Flexigift](../../setup.md)
 * [Tutorials](../../tutorials/index.md)
-* [REST API Reference](../../api/index.md)
+* [API Reference](../../api/index.md)
 * [User Resource](index.md)
 * [Support](mailto:support@example.com)

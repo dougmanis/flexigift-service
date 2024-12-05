@@ -99,8 +99,9 @@ Response:
 ## Links
 
 * [Documentation Home](../../index.md)
+* [Quick Start](../../quickstart.md)
 * [Install Flexigift](../../setup.md)
 * [Tutorials](../../tutorials/index.md)
-* [REST API Reference](../../api/index.md)
+* [API Reference](../../api/index.md)
 * [Transactions Resource](index.md)
 * [Support](mailto:support@example.com)

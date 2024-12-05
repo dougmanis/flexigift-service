@@ -161,7 +161,8 @@ If you see the list of users from the service, congratulations! You are ready to
 Start with the following links:
 
 * [Documentation Home](index.md)
+* [Quick Start](quickstart.md)
 * [Install Flexigift](setup.md)
 * [Tutorials](tutorials/index.md)
-* [REST API reference](api/index.md)
+* [API Reference](api/index.md)
 * [Support](mailto:support@example.com)

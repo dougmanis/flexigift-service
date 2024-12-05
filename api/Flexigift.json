@@ -54,15 +54,21 @@
       "id": 5
     },
     {
-      "user_id": "user005",
-      "amazon_id": "amz09876",
-      "name": "Stafan Stevens",
-      "email": "stafen.stevens@example.com",
+      "user_id": "user006",
+      "amazon_id": "amz3456",
+      "name": "Jack Johnson",
+      "email": "jack.johnson@example.com",
       "gift_cards": [
-        "gap-gc-005",
-        "hanes-gc-002"
+        "kohls-gc-001"
       ],
       "id": 6
+    },
+    {
+      "user_id": "user006",
+      "amazon_id": "amz3456",
+      "name": "Jack Johnson",
+      "email": "jack.johnson@example.com",
+      "id": 7
     }
   ],
   "gift_cards": [
@@ -105,6 +111,14 @@
       "issuer": "Hanes",
       "balance": 50,
       "expiry_date": "2025-12-31"
+    },
+    {
+      "card_id": "kohls-gc-001",
+      "user_id": "user006",
+      "issuer": "Kohls",
+      "balance": 250,
+      "expiry_date": "2025-12-31",
+      "id": 6
     }
   ],
   "products": [
@@ -135,6 +149,13 @@
       "name": "Gap Winter Jacket",
       "price": 65,
       "eligible_issuer": "Gap"
+    },
+    {
+      "product_id": "kohls-dogbed-001",
+      "name": "Deluxe Round Dog Bed",
+      "price": "50.00",
+      "eligible_issuer": "Kohls",
+      "id": 5
     }
   ],
   "transactions": [
