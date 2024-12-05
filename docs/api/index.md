@@ -2,9 +2,9 @@
 layout: page
 ---
 
-# REST API Reference
+# API Reference
 
-Detailed descriptions of the Flexigift service's resources.
+This section includes detailed descriptions of the Flexigift service's resources.
 
 > **Note**: The API reference documentation refers to a `{base_url}` when they
 refer to the URL of a resource. The `{base_url}` value depends on the installation of the service. 
@@ -39,7 +39,8 @@ Flexigift maintains four resources:
 ## Links
 
 * [Documentation Home](../index.md)
+* [Quick Start](../quickstart.md)
 * [Install Flexigift](../setup.md)
 * [Tutorials](../../tutorials/index.md)
-* [REST API Reference](../api/index.md)
+* [API Reference](../api/index.md)
 * [Support](mailto:support@example.com)

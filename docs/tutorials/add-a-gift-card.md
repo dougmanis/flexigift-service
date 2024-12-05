@@ -104,7 +104,8 @@ Now that you have a gift card in the system, link it to a user as described in t
 ## Links
 
 * [Documentation Home](../index.md)
+* [Quick Start](../quickstart.md)
 * [Install Flexigift](../setup.md)
 * [Tutorials](../tutorials/index.md)
-* [REST API Reference](../api/index.md)
+* [API Reference](../api/index.md)
 * [Support](mailto:support@example.com)

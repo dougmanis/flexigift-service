@@ -4,21 +4,23 @@ layout: page
 
 # Flexigift Service
 
-Spend all of your gift cards at Amazon.com with Flexigift!
+Spend all of your gift cards at Amazon.com with Flexigift! With the Flexigift service, you can spend 
+your third-party gift cards directly at your Amazon.com shopping cart.
 
-With the Flexigift service, you can spend your third-party gift cards directly at your Amazon.com 
-shopping cart. First, [create a Flexigift account](tutorials/add-a-user.md) and 
-[add some gift cards](tutorials/add-a-gift-card.md). Next, [link your gift cards](tutorials/link-card-to-user.md) 
-from companies like Nike, Starbucks, or Hanes to your Flexigift account. Finally, when you buy eligible 
-products from Amazon.com, your Amazon shopping card will give you the option to pay with one of your 
-third-party gift cards.
+## How it works
 
-The Flexigift service offers a [REST API](api/index.md) to manage users, gift cards, and eligible 
-products, and to record purchase transactions.
+Third-party gift cards issuers such as Kohl's and Starbucks register their eligible products with 
+Flexigift. Flexigift users link their gift cards to their account. When a Flexigift user adds an 
+eligible product to their Amazon.com shopping cart, Amazon verifies their third-party gift card with Flexigift and 
+offers the user the option to pay for their item with their card.
+
+## [Quick Start](quickstart.md)
+
+[Start here](quickstart.md) to get Flexigift up and running.
 
 ## [Install Flexigift](setup.md)
 
-Start here to [set up and run Flexigift](setup.md) on your local computer.
+How to [set up and run Flexigift](setup.md) on your local computer.
 
 ## [Tutorials](tutorials/index.md)
 
@@ -26,9 +28,10 @@ Start here to [set up and run Flexigift](setup.md) on your local computer.
 * [Add a Gift Card](tutorials/add-a-gift-card.md)
 * [Link a Gift Card to a User](tutorials/link-card-to-user.md)
 
-## [REST API Reference](api/index.md)
+## [API Reference](api/index.md)
 
-The Flexigift service offers four resources:
+The Flexigift service offers a REST API to manage users, gift cards, and eligible products, and to 
+record purchase transactions:
 
 * [Users](api/users/index.md)
 * [Gift cards](api/gift-cards/index.md)
@@ -38,7 +41,8 @@ The Flexigift service offers four resources:
 ## Links
 
 * [Documentation Home](index.md)
+* [Quick Start](quickstart.md)
 * [Install Flexigift](setup.md)
 * [Tutorials](tutorials/index.md)
-* [REST API Reference](api/index.md)
+* [API Reference](api/index.md)
 * [Support](mailto:support@example.com)
