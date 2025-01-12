@@ -21,7 +21,7 @@ The Users resource contains information about the customers in the system.
 | amazon_id      | string        | yes        | -               | The user's Amazon account ID.   |
 | name           | string        | yes        | -               | The user's full name.           |
 | email          | string        | yes        | Must contain an '@' symbol. | The user's email address. |
-| gift_cards     | string[]      | yes        | -               | Array of [gift cards](../gift-cards/index.md) associated with the user. |
+| gift_cards     | string[]      | yes        | -               | Array of [gift card](../gift-cards/index.md) `card_ids` associated with the user. |
 
 Example:
 
