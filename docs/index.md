@@ -4,7 +4,7 @@ layout: page
 
 # Flexigift Service
 
-Spend all of your gift cards at Amazon.com with Flexigift! With the Flexigift service, you can spend 
+Spend all of your gift cards at Amazon.com with Flexigift. With the Flexigift service, you can spend 
 your third-party gift cards directly at your Amazon.com shopping cart.
 
 ## How it works
